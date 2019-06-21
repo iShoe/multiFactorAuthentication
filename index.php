@@ -136,8 +136,8 @@ if(isset($_POST['signup'])) {
 			$mail->Host = "smtp.gmail.com";
 			$mail->Port = 587; 
 			$mail->IsHTML(true);
-			$mail->Username = "officialaishu@gmail.com";
-			$mail->Password = "Mazes12345";
+			$mail->Username = "adminemail@gmail.com"; // REPLACE WITH ADMIN EMAIL
+			$mail->Password = "adminpassword"; // REPLACE WITH ADMIN PASSWORD
 			$mail->SetFrom("officialaishu@gmail.com");
 			$mail->Subject = "Verification";
 			$mail->Body = '
